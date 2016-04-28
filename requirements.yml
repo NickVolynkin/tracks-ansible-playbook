@@ -1,0 +1,10 @@
+  - src: https://github.com/geerlingguy/ansible-role-mysql.git
+    scm: git
+    version: master
+    name: geerlingguy.mysql
+
+  - src: https://github.com/NickVolynkin/ansible-role-tracks.git
+    scm: git
+    version: master
+    name: tracks
+
