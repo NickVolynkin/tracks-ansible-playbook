@@ -1,0 +1,16 @@
+---
+
+- hosts: tracks
+  roles:
+#    - role: geerlingguy.ruby
+    - role: geerlingguy.mysql
+  become: yes
+
+- hosts: tracks
+  roles:
+    - role: tracks
+  become: yes
+#
+#- hosts: all
+#  roles:
+#  become: yes

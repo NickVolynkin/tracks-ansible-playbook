@@ -1,0 +1,19 @@
+#mysql_user_home: /root
+#mysql_root_password: root
+#mysql_databases:
+#  - tracks:
+#      name: tracks
+
+
+
+tracks_database_override:
+  development:
+    password: "{{ mysql_root_password }}"
+  production:
+    password: "{{ mysql_root_password }}"
+
+
+tracks_salt: 212-bhakj;ihgqqewfg8e7wdy324
+tracks_secret_token: 1asd;gfhp9bhasdefrt723-anb;y7'=
+tracks_open_signups: true
+tracks_admin_email: nick.volynkin@gmail.com
